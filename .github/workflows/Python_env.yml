@@ -42,3 +42,9 @@ jobs:
       - name: Run code
         run: |
           python FEM_AMR_L_dom.py
+
+      - name: Upload to GitHub repo
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Commit to Github
+          file_pattern: 'Figs/Undeformed and deformed FEA meshes.png'
