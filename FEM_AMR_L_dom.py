@@ -669,16 +669,18 @@ if __name__ == '__main__':
     plt.title('Undeformed and deformed FEA meshes=',y=1.05, fontsize=10)
     plt.xlabel('x')
     plt.ylabel('y')
-    plt.show()
+    plt.savefig('Figs/Undeformed and deformed FEA meshes.png')
+
     
     #Plot Internal stress distribution
+   
     fig = plt.figure(2,figsize=(8,8))
     ax = fig.add_subplot(projection='3d')
     ax.plot_trisurf(X, Y, Fint, triangles=E, cmap=plt.cm.jet, linewidth=0.2)
     plt.title('Internal stress distribution over domain',y=1.05, fontsize=10)
     plt.xlabel('x')
     plt.ylabel('y')
-    plt.show()
+    plt.savefig('Figs/Internal stress distribution over domain.png')
     
     
     
@@ -707,7 +709,7 @@ if __name__ == '__main__':
     plt.title('Adaptive mesh refinement=',y=1.05, fontsize=10)
     plt.xlabel('x')
     plt.ylabel('y')
-    plt.show()
+    plt.savefig('Figs/Adaptive mesh refinement.png')
     
     
     #Plot new internal stress distribution
@@ -717,7 +719,7 @@ if __name__ == '__main__':
     plt.title('Internal stress distribution over refined mesh',y=1.05, fontsize=10)
     plt.xlabel('x')
     plt.ylabel('y')
-    plt.show()
+    plt.savefig('Figs/Internal stress distribution over refined mesh.png')
     
     print('L_inf norm for original mesh', norm_f_old)
     print('L_inf norm for refined mesh', norm_f_new)
