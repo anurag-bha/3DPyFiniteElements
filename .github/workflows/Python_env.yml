@@ -54,3 +54,8 @@ jobs:
         with:
           name: deformation_plots
           path: Figs/*.png
+
+      - name: Remove files
+        run: |
+          rm -rf Figs/*.png
+          
