@@ -16,7 +16,7 @@ reduction in the error norm.
 
 # Implementation:
 The adaptive re nement algorithm follows a cycle of
-solve->estimate->mark->refine.
+_solve_->_estimate_->_mark_->_refine_.
 We start with solve. A structural  nite element solver was fully developed
 in-house coupled with the [MeshPy](https://pypi.org/project/MeshPy/) grid generator. Linear triangular elements
 was used for meshing the design domain having 2 degrees of freedom at each
