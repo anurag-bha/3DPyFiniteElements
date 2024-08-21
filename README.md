@@ -1,10 +1,10 @@
 # Adaptive Mesh Refinement 
-$$
+```math
 \begin{split}
   \dot{x} & = \sigma(y-x) \\
   \dot{y} & = \rho x- y - xz 
 \end{split}
-$$
+```
 The main problem investigated is the 2d plane stress elasticity problem for a L-shaped domain defined mathematically:
 ```math
 \Delta^2 u(x, y) = -F_b \hspace{5 mm} on \hspace{5 mm} \Omega  
