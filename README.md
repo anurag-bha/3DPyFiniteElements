@@ -1,5 +1,4 @@
 Dependencies:
-
 * [MeshPy](https://pypi.org/project/MeshPy/)
 * SciPy
  
