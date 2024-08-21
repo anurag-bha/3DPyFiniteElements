@@ -15,7 +15,7 @@ reduction in the error norm.
 The adaptive re nement algorithm follows a cycle of
 solve->estimate->mark->refine.
 We start with solve. A structural  nite element solver was fully developed
-in-house coupled with the ['https://pypi.org/project/MeshPy/'] grid generator. Linear triangular elements
+in-house coupled with the [MeshPy](https://pypi.org/project/MeshPy/) grid generator. Linear triangular elements
 was used for meshing the design domain having 2 degrees of freedom at each
 vertex. A body force to simulate loading due to gravity was impelmented. The
 undeformed mesh (blue) and the deformed mesh (green) is shown in Figure.
@@ -30,7 +30,5 @@ We will demonstrate how GitHub Actions can be used to display a spectrogram of a
   * upload figures to GitHub 
 
 After the workflow is executed the adaptively refined mesh file is updated in the repo and is visualized below along with the deformed file
-Refined Mesh            |  Original & Deformed Mesh
-:-------------------------:|:-------------------------:
-![](https://github.com/anurag-bha/AdaptiveFiniteElements/blob/main/Figs/Adaptive%20mesh%20refinement.png)  |  
+![](https://github.com/anurag-bha/AdaptiveFiniteElements/blob/main/Figs/Adaptive%20mesh%20refinement.png)
 
