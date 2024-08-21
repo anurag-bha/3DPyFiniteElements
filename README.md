@@ -1,3 +1,9 @@
+Dependencies:
+
+* [MeshPy](https://pypi.org/project/MeshPy/)
+* SciPy
+ 
+
 # Adaptive Mesh Refinement 
 
 The main problem investigated is the 2d plane stress elasticity problem for a L-shaped domain defined mathematically:
