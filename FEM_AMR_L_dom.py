@@ -85,7 +85,7 @@ def make_mesh(flag, marked_elem,itr):
 
     def needs_refinement(vertices, area):
         bary = np.sum(np.array(vertices), axis=0)/3
-        control_element_size_param = 0.001
+        control_element_size_param = 0.01
         max_area = control_element_size_param + la.norm(bary, np.inf)*control_element_size_param
         #max_area = 1 + la.norm(bary, np.inf)*1
         return bool(area > max_area)
