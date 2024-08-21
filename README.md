@@ -1,10 +1,12 @@
-Dependencies:
+# Finite Element Analysis with Adaptive Mesh Refinement (AMR) 
+**Author:** Anurag Bhattacharyya
+
+**Dependencies:**
+The dependencies are listed in [`.github/workflows/Python_env.yml`](https://github.com/anurag-bha/AdaptiveFiniteElements/blob/main/.github/workflows/Python_env.yml):
 * [MeshPy](https://pypi.org/project/MeshPy/)
 * SciPy
  
-
-# Adaptive Mesh Refinement 
-
+**Problem Formulation:**
 The main problem investigated is the 2d plane stress elasticity problem for a L-shaped domain defined mathematically:
 ```math
  
@@ -38,11 +40,6 @@ After calculating the required values on the initial mesh, we estimate the error
 in the elements. For this we use a posteriori error estimator.
 ![](https://github.com/anurag-bha/AdaptiveFiniteElements/blob/main/Figs/Undeformed%20and%20deformed%20FEA%20meshes.png)
 
-We will demonstrate how GitHub Actions can be used to display a spectrogram of a snippet from an underwater audio stream.
-
-* [`.github/workflows/Python_env.yml`](https://github.com/anurag-bha/AdaptiveFiniteElements/blob/main/.github/workflows/Python_env.yml)
-* workflow steps:
-  * upload figures to GitHub 
 
 After the workflow is executed the adaptively refined mesh file is updated in the repo and is visualized below along with the deformed file
 ![](https://github.com/anurag-bha/AdaptiveFiniteElements/blob/main/Figs/Adaptive%20mesh%20refinement.png)
