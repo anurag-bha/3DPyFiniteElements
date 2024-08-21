@@ -48,8 +48,8 @@ After the workflow is executed the adaptively refined mesh file is updated in th
 ![](https://github.com/anurag-bha/AdaptiveFiniteElements/blob/main/Figs/Internal%20stress%20distribution%20over%20refined%20mesh.png)
 
 # Comparing AMR with full domain refinement
-| D.O.Fs       | time(s)          | $$L_{/inf}$$  |
+| D.O.Fs       | time(s)          | $$L_{inf}$$  |
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| 96            | 0.02997       |  0.34533|
+| 508           | 0.15364       |   0.1145 |
+
