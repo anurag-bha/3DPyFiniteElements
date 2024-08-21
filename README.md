@@ -11,7 +11,7 @@ internal stresses, consequently more error prone, and the mesh will be re ned
 in this region to lower the peak in the internal stress values and subsequenly a
 reduction in the error norm.
 
-#Implementation
+# Implementation:
 The adaptive re nement algorithm follows a cycle of
 solve->estimate->mark->refine.
 We start with solve. A structural  nite element solver was fully developed
