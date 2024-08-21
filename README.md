@@ -3,8 +3,11 @@ The main problem investigated is the 2d plane stress elasticity problem for a L-
 ```math
 \Delta^2 u(x, y) = -F_b \hspace{5 mm} on \hspace{5 mm} \Omega  
 ```
-$$u = 0 \hspace{5 mm} \Omega_b$$
-Here $$F_b$$ is the body force and $$\Omega_b$$ represents the boundary.
+
+$u = 0 \hspace{5 mm} \Omega_b$ 
+
+
+Here $F_b$ is the body force and $\Omega_b$ represents the boundary.
 # Goals:
 In this elasticity problem, there is also a body force acting on the entire structure
 in the downward direction. From elasticity studies we know that the region
