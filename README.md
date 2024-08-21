@@ -2,7 +2,7 @@
 The main problem investigated in this project is the 2d plane stress elasticity
 problem for a L-shaped domain.
 ```math
-\Delta^2 u(x, y) = -F_b
+\Delta^2 u(x, y) = -F_b 
 ```
 # Goals:
 In this elasticity problem, there is also a body force acting on the entire structure
