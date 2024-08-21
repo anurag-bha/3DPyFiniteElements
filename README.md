@@ -27,7 +27,8 @@ that the adaptive mesh re nement process will capture these regions of high
 internal stresses, consequently more error prone, and the mesh will be re ned
 in this region to lower the peak in the internal stress values and subsequenly a
 reduction in the error norm.
-
+**Initial stress distribution over the domain:**
+![](https://github.com/anurag-bha/AdaptiveFiniteElements/blob/main/Figs/Internal%20stress%20distribution%20over%20domain.png)
 # Implementation:
 The adaptive re nement algorithm follows a cycle of
 _solve_->_estimate_->_mark_->_refine_.
@@ -43,4 +44,12 @@ in the elements. For this we use a posteriori error estimator.
 
 After the workflow is executed the adaptively refined mesh file is updated in the repo and is visualized below along with the deformed file
 ![](https://github.com/anurag-bha/AdaptiveFiniteElements/blob/main/Figs/Adaptive%20mesh%20refinement.png)
+**Final stress distribution over the refined domain:**
+https://github.com/anurag-bha/AdaptiveFiniteElements/blob/main/Figs/Internal%20stress%20distribution%20over%20refined%20mesh.png
 
+# Comparing AMR with full domain refinement
+| D.O.Fs       | time(s)          | $${F_{int}}_{L_{/inf}}  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
