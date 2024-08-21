@@ -6,7 +6,7 @@ The main problem investigated is the 2d plane stress elasticity problem for a L-
 ```
 ```math
 \begin{split}
-  \Delta^2 u(x, y) = -F_b \hspace{5 mm} on \hspace{5 mm} \Omega  \\
+  \Delta^2 u(x, y) & = -F_b \hspace{5 mm} on \hspace{5 mm} \Omega  \\
   u & = 0 \hspace{5 mm} on \hspace{5 mm} \Omega_b
 \end{split}
 ```
