@@ -72,5 +72,5 @@ After the workflow is executed the adaptively refined mesh file is updated in th
 
 # Additional Resources
 * Finite Element Analysis: [Cook, R.D., 2007. Concepts and applications of finite element analysis. John wiley & sons.]()
-* GitHub Workflows: [GitHub Actions for Scientific Data Workflows](https://uwescience.github.io/SciPy2024-GitHubActionsTutorial/intro.html)
+* GitHub Workflows: [GitHub Actions for Scientific Data Workflows, Valentina Staneva, eScience Institute, University of Washington](https://uwescience.github.io/SciPy2024-GitHubActionsTutorial/intro.html)
 * Meshing: [MeshPy](https://pypi.org/project/MeshPy/)
